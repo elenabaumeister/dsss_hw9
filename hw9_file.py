@@ -35,7 +35,7 @@ def generate_response_from_llm(input_text):
     return response
 
 def main():
-    API_TOKEN = "7962129698:AAHJ2LkaHAdvpFBLQ9Qw6xFFcEdPpO5UYIQ"
+    API_TOKEN = "..."   # Add your API token here (from BotFather)
     application = Application.builder().token(API_TOKEN).build()
 
     # Add handlers for commands and messages
